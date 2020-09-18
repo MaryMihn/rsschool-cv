@@ -1,0 +1,67 @@
+body,
+p,
+h1,  
+ul[class],
+ol[class],
+li {
+  margin: 0;
+}
+body{
+  background: dimgrey;
+  padding: 30px;
+}
+
+.cv{
+  display: flex;
+  width: 70%;
+  margin: auto;
+  height: 100%;
+  
+}
+.left{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.left div{
+  padding-left: 20px;
+  background-color:slateblue ;
+  color: white;
+}
+
+ .photo{
+  width: 100%;
+ }
+
+ h1{
+  margin: 20px 0px 0px;
+ }
+
+ .left h3{
+  margin: 10px 0px 190px;
+ }
+
+ .left h4{
+  margin: 10px 0px ;
+ }
+
+ .left a{
+  color: white;
+  text-decoration: none;
+ }
+
+ .contacts{
+  align-items: flex-end;
+  padding-bottom: 30px;
+ }
+
+ .right{
+  background-color: white;
+  padding: 0px 30px;
+  width: 55%;
+}
+
+.right h3{
+  margin: 40px 0px 30px;
+  color: slateblue;
+}
